@@ -1,6 +1,6 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
-let keys = Objects.keys(sampleObject);
+let keys = Object.keys(sampleObject);
 
 function hasKey(key) {
  for(int i=0; i<keys.length; i++){
